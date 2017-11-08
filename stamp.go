@@ -18,7 +18,7 @@ import (
 	"time"
 )
 
-type Stamp int // format: YYYYQMMDDHHmmSS like 201701201 044500 in which 0 for Q means not recorded quarterly
+type Stamp int 
 type Stamps []int
 type Periods struct {
 	Year, Quarter, Month, Day, Weekday, Holiday, Hour, Minute, Second, Frac int
